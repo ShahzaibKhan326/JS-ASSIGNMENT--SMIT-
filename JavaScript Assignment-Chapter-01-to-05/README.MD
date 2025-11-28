@@ -1,1 +1,1 @@
-https://shahzaibkhan326.github.io/JS-ASSIGNMENT--SMIT-/JavaScript Assignment
+https://shahzaibkhan326.github.io/JavaScript-Assignments-SMIT/JavaScript%20Assignment-Chapter-01-to-05/
