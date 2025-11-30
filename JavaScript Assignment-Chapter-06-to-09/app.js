@@ -134,6 +134,20 @@
 
 
 
-// -------CHAPTER 05 QUESTION (1-)---------
+// -------CHAPTER 05 QUESTION (10)---------
 
-var
+// var  arithmetic_caluculation= (2+3) * 10 / 2;
+// console.log("arithmetic_caluculation= (2+3) * 10 / 2;");
+// console.log("Answer is : " + arithmetic_caluculation );
+
+
+// -------CHAPTER 05 QUESTION (11)- (Age-Calculater)--------
+
+// var currentYear =2016;
+// var birthYear = 1992;
+// console.log("Current Year : " + currentYear);
+// console.log("Birth Year : " + birthYear)
+// var exactAge= (currentYear-birthYear);
+// console.log(exactAge);
+
+// -------CHAPTER 05 QUESTION (11)---------
