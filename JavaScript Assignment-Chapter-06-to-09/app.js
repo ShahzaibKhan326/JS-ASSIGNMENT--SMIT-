@@ -133,3 +133,7 @@
 // console.log("Totol Cash Convertion " + (usCash + saudiCash) );
 
 
+
+// -------CHAPTER 05 QUESTION (1-)---------
+
+var
