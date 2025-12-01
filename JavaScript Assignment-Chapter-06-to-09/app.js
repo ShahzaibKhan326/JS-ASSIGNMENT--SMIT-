@@ -214,15 +214,19 @@
 
 // -------CHAPTER 06 QUESTION (3)---------
 
-var userName =prompt("Please enter you Name!");
-if(!userName || userName === "")
-{
-    alert("Please Enter a Valid Name: ")
-    userName =prompt("Please Enter your Name Again!")
-}
-else 
-{
-var output  ="Hi " + userName  + " \nhope you are fine!";
-alert(output); 
-}
+// var output ;
+// var userName =prompt("Please enter you Name!");
+// if(!userName || userName === "")
+// {
+//     alert("Please Enter a Valid Name: ")
+//     userName =prompt("Please Enter your Name Again!")
+//    var output  ="Hi " + userName  + " \nhope you are fine!";
+//    alert(output); 
+// }
+
+// else 
+// {
+// var output  ="Hi " + userName  + " \nhope you are fine!";
+// alert(output); 
+// }
 
