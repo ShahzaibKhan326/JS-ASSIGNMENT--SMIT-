@@ -230,3 +230,13 @@
 // alert(output); 
 // }
 
+// -------CHAPTER 06 QUESTION (4)---------
+
+// userInput = prompt("Enter a Table Number");
+if(!userInput)
+{
+    console.log("false")
+}
+else {
+    console.log("true")
+}
