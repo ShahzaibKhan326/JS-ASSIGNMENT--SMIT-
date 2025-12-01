@@ -23,3 +23,23 @@
 // {
 //     console.log("enter a valid gender")
 // }
+
+// -------------------Question 3------------------------------
+
+// var Red ="Must Stop"; 
+// var Yellow = "Ready to move";
+// var Green = "Move now";
+
+// var user_input = prompt("Enter a Traffic signal color");
+// if(user_input.toLowerCase() === "red")
+// {
+//     console.log(Red);
+// }
+// if(user_input.toLowerCase() === "yellow")
+// {
+//     console.log(Yellow);
+// }
+// if(user_input.toLowerCase() === "green")
+// {
+//     console.log(Green);
+// }
