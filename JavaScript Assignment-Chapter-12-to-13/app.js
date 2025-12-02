@@ -113,3 +113,29 @@
 // }
 
 //--------------Question (6)-----------------------
+
+/// Fixing the if and else statement
+
+//    Before =>
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
+
+//   After =>
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// console.log(greeting);
+// }
+// else
+// {
+// greeting = "Good evening";
+// console.log(greeting);
+// }
