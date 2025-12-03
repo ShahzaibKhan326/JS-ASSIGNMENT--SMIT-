@@ -50,8 +50,9 @@
 
 // ---------------------QUESTION (9)---------------------------------------
 
- var colors = ["lime","golden"]
-console.log("Array Befor : " + colors)
+ var colors = ["lime","golden","silver"]
+ console.log("Array Befor :")
+console.log( colors)
 
 // --------A---------------
 // var user_Color = prompt("Enter user Desire color !")
@@ -66,3 +67,24 @@ console.log("Array Befor : " + colors)
 // --------C---------------
 // colors.unshift("purple","orange");
 // console.log("two more colors have been Added at start of Array : "  + "\n"+ colors)
+
+// --------D---------------
+
+// colors.shift(0)
+// console.log("first color is been deleted from array");
+// console.log(colors)
+
+// --------E---------------
+
+// colors.pop(0)
+// console.log("last color is been deleted from array");
+// console.log(colors)
+
+// --------F---------------
+// var user_index = prompt("Enter the index Number to be added!")
+// var user_Color = prompt("Enter the Desire color please!")
+// colors[user_index] = user_Color;
+// console.log("Your color has been added at Index " + user_index +" and color name : " +
+// user_Color)
+// console.log(colors);
+
