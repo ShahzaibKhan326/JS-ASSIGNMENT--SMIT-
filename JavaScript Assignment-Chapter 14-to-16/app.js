@@ -2,31 +2,31 @@
 
 // ---------------------QUESTION (1)---------------------------------------
 
-var students  = [];
+// var students  = [];
 
 // ---------------------QUESTION (2)---------------------------------------
 
-var students_O = {}
+// var students_O = {}
 
 // ---------------------QUESTION (3)---------------------------------------
 
-var str_students = ["shahzaib","sami","zaid"]
+// var str_students = ["shahzaib","sami","zaid"]
 
 // ---------------------QUESTION (4)---------------------------------------
 
-var num_student_age = [18 , 17 , 13 , 19];
+// var num_student_age = [18 , 17 , 13 , 19];
 
 // ---------------------QUESTION (5)---------------------------------------
 
-var have_Id_card = [true , false]
+// var have_Id_card = [true , false]
 
 // ---------------------QUESTION (6)---------------------------------------
 
-var mix_array = ["Hello",18 ,true , "shahzaib"]
+// var mix_array = ["Hello",18 ,true , "shahzaib"]
 
 // ---------------------QUESTION (7)---------------------------------------
 
-var qualification = ["SSC","HSC" , "BCS" , "BS" , "BCOM" ,"MS" ,"M" ,"PHIL" ,"PHD"]
+// var qualification = ["SSC","HSC" , "BCS" , "BS" , "BCOM" ,"MS" ,"M" ,"PHIL" ,"PHD"]
 
 // console.log("Qualification")
 // console.log("1 )" + qualification[0]);
@@ -39,3 +39,10 @@ var qualification = ["SSC","HSC" , "BCS" , "BS" , "BCOM" ,"MS" ,"M" ,"PHIL" ,"PH
 // console.log("8 )" + qualification[7]);
 
 // ---------------------QUESTION (8)---------------------------------------
+
+// var students_name = ["shahzaib" , "umar" ,"zaid"]
+// var students_percentage = [64,46,96]
+
+// console.log("Score of " + students_name[0] + " 320 " + "." + " Percentage : "+ students_percentage[0]+ "%")
+// console.log("Score of " + students_name[1] +" 230 " +  "." + " Percentage : "+ students_percentage[1]+ "%")
+// console.log("Score of " + students_name[2] +" 480 " +  "." + " Percentage : "+ students_percentage[2]+ "%")
