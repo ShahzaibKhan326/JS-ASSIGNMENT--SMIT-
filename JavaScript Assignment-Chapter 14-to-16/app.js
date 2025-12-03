@@ -46,3 +46,23 @@
 // console.log("Score of " + students_name[0] + " 320 " + "." + " Percentage : "+ students_percentage[0]+ "%")
 // console.log("Score of " + students_name[1] +" 230 " +  "." + " Percentage : "+ students_percentage[1]+ "%")
 // console.log("Score of " + students_name[2] +" 480 " +  "." + " Percentage : "+ students_percentage[2]+ "%")
+
+
+// ---------------------QUESTION (9)---------------------------------------
+
+ var colors = ["lime","golden"]
+console.log("Array Befor : " + colors)
+
+// --------A---------------
+// var user_Color = prompt("Enter user Desire color !")
+// colors.unshift(user_Color);
+// console.log("Your color has been Added at start of Array : " + colors)
+
+// --------B---------------
+// var user_Color = prompt("Enter user Desire color !")
+// colors.push(user_Color);
+// console.log("Your color has been Added at end of Array : " + colors)
+
+// --------C---------------
+// colors.unshift("purple","orange");
+// console.log("two more colors have been Added at start of Array : "  + "\n"+ colors)
