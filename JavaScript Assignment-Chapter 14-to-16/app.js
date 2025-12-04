@@ -118,3 +118,21 @@
 // console.log(joined_arr);
 
 // ---------------------QUESTION (13)---------------------------------------
+
+var colors = [];
+colors.push("red");
+console.log("These color are added : "+colors)
+colors.push("green");
+console.log("These color are added : "+colors)
+colors.push("blue");
+console.log("These color are added : "+colors)
+
+
+console.log("out : "+colors.shift())
+console.log("out : "+colors.shift())
+console.log("out : "+colors.shift())
+
+
+
+// ---------------------QUESTION (14)---------------------------------------
+ 
