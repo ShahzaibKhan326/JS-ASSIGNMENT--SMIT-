@@ -148,3 +148,16 @@
 // console.log("out : "+colors.pop())
 // console.log("out : "+colors.pop())
 // console.log("out : "+colors.pop())
+
+
+// ---------------------QUESTION (15)---------------------------------------
+
+var phone_manufacturers = ["apple","samsung","motorola","nokia","sony","haier"]
+document.write("<select>")
+document.write("<option>" + phone_manufacturers[0] + "</option>")
+document.write("<option>" + phone_manufacturers[1] + "</option>")
+document.write("<option>" + phone_manufacturers[2] + "</option>")
+document.write("<option>" + phone_manufacturers[3] + "</option>")
+document.write("<option>" + phone_manufacturers[4] + "</option>")
+document.write("<option>" + phone_manufacturers[5] + "</option>")
+document.write("</select>")
