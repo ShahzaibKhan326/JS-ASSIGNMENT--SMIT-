@@ -37,9 +37,46 @@
 
 //------------------Question (5)------------------------
 
-var fruits = ["apple","banana","mango","orange","strawberry"];
-var count =fruits.length;
-for(var i =0; i<=count ; i++ )
+// var fruits = ["apple","banana","mango","orange","strawberry"];
+// var count =fruits.length;
+// for(var i =0; i<=count ; i++ )
+// {
+//     console.log("Element at index " + i + " is " + fruits[i])
+// }
+
+//------------------Question (6)------------------------
+
+// ---------------A------------------
+
+// for(var i =1 ; i<=15 ; i++)
+// {
+//     console.log(i);
+// }
+
+// ---------------B------------------
+
+// for(var i = 10 ; i>=1 ; i--)
+// {
+//     console.log(i);
+// }
+
+// ---------------C------------------
+
+// for(var i = 0; i<=20 ; i++)
+// {
+//    if(i%2 === 0)
+//    {
+//     console.log(i)
+//    }
+// }
+
+// ---------------D------------------
+ 
+for(var i = 0; i<=20 ; i++)
 {
-    console.log("Element at index " + i + " is " + fruits[i])
+   if(i%2 === 0)
+   {
+    console.log(i)
+   }
 }
+
