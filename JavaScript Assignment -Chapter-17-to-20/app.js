@@ -17,22 +17,8 @@
 //     console.log(i);
 // }
 
+
 //------------------Question (4)------------------------
-
-// var user_Table_number = prompt("Enter a number to show its muiltilication table")
-// if(!user_Table_number || user_Table_number === "" || isNaN(user_Table_number))
-// {
-//     console.log("Please Enter a valid Number!")
-// }
-// else
-// {
-//     for(i=1 ; i<=10 ; i++)
-// {
-//     console.log(user_Table_number + " X " + i + " = " + (user_Table_number*i))
-// }
-// }
-
-//------------------Question (5)------------------------
 
 // var user_Table_number = prompt("Enter a number to show its muiltilication table")
 // var user_Table_count = prompt("Enter length muiltiplication table")
@@ -48,3 +34,12 @@
 //     console.log(user_Table_number + " X " + i + " = " + (user_Table_number*i))
 // }
 // }
+
+//------------------Question (5)------------------------
+
+var fruits = ["apple","banana","mango","orange","strawberry"];
+var count =fruits.length;
+for(var i =0; i<=count ; i++ )
+{
+    console.log("Element at index " + i + " is " + fruits[i])
+}
