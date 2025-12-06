@@ -95,3 +95,10 @@
 // num_string = num_string.replace(".","")
 // console.log("After Value : " + num_string)
 // console.log("After Type : " + typeof num_string )
+
+// -------------Question (13)----------------------------
+
+var user_input = promp("Enter your name");
+var user_first_name = "shahzaib";
+
+for(var )
