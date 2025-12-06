@@ -141,7 +141,7 @@
 // var user_input =  prompt("Enter a strong password");
 
 var user_input = "shahzaib";
-var isValid =true;
+// var isValid =true;
 var firstChar = user_input.charAt(0)
 // console.log(firstChar)
 
@@ -155,8 +155,19 @@ for(var i = 0 ; i <user_input.length; i++)
     }
     else if(code >= 65 && code <=90 || code >= 97 && code <=122 )
       {
-        isValid=true;
-        break
+        if(user_input.length === 6)
+        {
+           console.log("true")
+        }
+        else
+        {
+            console.log("false")
+        }
       }
+    else
+        {
+        console.log("Unvalid password!")
+
+    }
 }
 // console.log(code)
