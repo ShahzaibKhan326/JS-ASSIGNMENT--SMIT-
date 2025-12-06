@@ -98,7 +98,22 @@
 
 // -------------Question (13)----------------------------
 
-var user_input = promp("Enter your name");
-var user_first_name = "shahzaib";
+// var user_name = prompt("Enter your name");
+// var isValid =true;
+// for(var i= 0; i<user_name.length;i++ )
+// {
+//     var code = user_name.charCodeAt(i);
+//     if(code === 33 || code === 44 || code === 46 || code === 64)
+//     {
+//        isValid=false;
+//     }
+// }
 
-for(var )
+// if(isValid)
+// {
+//     console.log("your word is valid ")
+// }
+// else 
+// {
+//     console.log("your word is not valid ")
+// }
