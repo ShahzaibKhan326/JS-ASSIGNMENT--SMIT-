@@ -57,3 +57,18 @@
  
 // console.log(replace_words);
 
+// -------------Question (9)----------------------------
+
+// var str_number = "472";
+// console.log("Value : "+str_number);
+// console.log("Type : "+ typeof str_number);
+// var num  = Number(str_number);
+// console.log("Value : "+num)
+// console.log("Type : " + typeof num)
+
+// -------------Question (10)----------------------------
+
+// var userInput = prompt("Enter a Word to to convert it to UpperCase!")
+//  userInput_capital = userInput.toUpperCase();
+//  console.log("Input : "+userInput);
+//  console.log("Output : "+userInput_capital);
