@@ -51,13 +51,9 @@
 
 // -------------Question (8)----------------------------
 
-var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
 
-for (i =0 ; i< message.length;i++)
-{
-    if(message.indexOf(and) !== -1)
-    {
-        message.slice()
-    }
-}
->>>>>>> Stashed changes
+// var replace_words = message.replace(/and/g , "&")
+ 
+// console.log(replace_words);
+
