@@ -54,7 +54,7 @@
 // var message = "Ali and Sami are best friends. They play cricket and football together.";
 
 // var replace_words = message.replace(/and/g , "&")
- 
+
 // console.log(replace_words);
 
 // -------------Question (9)----------------------------
@@ -133,41 +133,55 @@
 // else
 // {
 //      console.log("Your item is not found in the list. ")
-    
+
 // }
 
 // -------------Question (15)----------------------------
 
-// var user_input =  prompt("Enter a strong password");
+// var password =  prompt("Enter a strong password");
 
-var user_input = "shahzaib";
-// var isValid =true;
-var firstChar = user_input.charAt(0)
-// console.log(firstChar)
+// var isValid = true;
 
-for(var i = 0 ; i <user_input.length; i++)
-{
-    var code = user_input.charCodeAt(i)
-    if(firstChar.charCodeAt(0) >= 48 && firstChar.charCodeAt(0) <=57)
-    {
-        console.log("Password can not start with a numner!")
-        break;
-    }
-    else if(code >= 65 && code <=90 || code >= 97 && code <=122 )
-      {
-        if(user_input.length === 6)
-        {
-           console.log("true")
-        }
-        else
-        {
-            console.log("false")
-        }
-      }
-    else
-        {
-        console.log("Unvalid password!")
+// if (password.length < 6) {
+//   console.log("Password must be at least 6 characters long");
+//   isValid = false;
+// }
 
-    }
-}
-// console.log(code)
+// var first = password.charCodeAt(0);
+// if (first >= 48 && first <= 57) {
+//   console.log("Password should not start with a number");
+//   isValid = false;
+// }
+
+// var hasLetter = false;
+// var hasNumber = false;
+
+// for (var i = 0; i < password.length; i++) {
+//   var c = password.charCodeAt(i);
+
+//   if (c >= 48 && c <= 57) {
+//     hasNumber = true;
+//   } 
+//   else if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122)) {
+//     hasLetter = true;
+//   } 
+//   else {
+//     console.log("Invalid character found");
+//     isValid = false;
+//     break;
+//   }
+// }
+
+// if (isValid) {
+//   if (hasLetter && hasNumber) {
+//     console.log("Password is valid!");
+//   } else {
+//     console.log("Password must contain both letters AND numbers");
+//   }
+// }
+
+  
+  
+
+
+
