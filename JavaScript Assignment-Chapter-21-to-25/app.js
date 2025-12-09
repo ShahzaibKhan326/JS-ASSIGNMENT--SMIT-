@@ -182,6 +182,26 @@
 
   
   
+// -------------Question (16)----------------------------
+
+// var university = "University of karachi"
+// var uni_array = university.split("");
+// for(var i = 0; i<= university.length;i++)
+// {
+//   console.log(uni_array[i]);
+// }
+
+// -------------Question (17)----------------------------
 
 
+var user_input ="Pakistan";
+console.log("User Input : " + user_input);
+
+// -------------------A-----------------------
+// var last_Char = user_input.indexOf("n");
+// console.log("Last charracter : " + user_input[7])
+
+// -------------------B-----------------------
+// var last_Char = user_input.charAt(user_input.length-1);
+// console.log("Last charracter : " + last_Char)
 
