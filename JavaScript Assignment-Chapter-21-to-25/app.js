@@ -194,8 +194,8 @@
 // -------------Question (17)----------------------------
 
 
-var user_input ="Pakistan";
-console.log("User Input : " + user_input);
+// var user_input ="Pakistan";
+// console.log("User Input : " + user_input);
 
 // -------------------A-----------------------
 // var last_Char = user_input.indexOf("n");
@@ -205,3 +205,19 @@ console.log("User Input : " + user_input);
 // var last_Char = user_input.charAt(user_input.length-1);
 // console.log("Last charracter : " + last_Char)
 
+// -------------Question (18)----------------------------
+
+// var str ="The quick brown fox jumps over the lazy dog";
+// var str= str.toLowerCase();
+// var str_array = str.split(" ");
+// var count=0;
+// for(var i =0; i<=str_array.length; i++)
+// {
+//   if(str_array[i] === "the")
+//   {
+//     count++;
+//   }
+// }
+
+// console.log("Text : "+ str)
+// console.log("There are " + count + " occurencs(s) of the world 'the'. ")
