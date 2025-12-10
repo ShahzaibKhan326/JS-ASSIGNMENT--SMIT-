@@ -31,3 +31,10 @@
 // console.log("Ceil value : "+ceil_integer);
 
 // ------------------Qustion (3)--------------------
+
+// var number = prompt("Enter a Nagative to Value to convert to positive value \n Example : -2 -44 or -4")
+// console.log("Input : "+number);
+// var conv_num = Math.abs(number);
+// console.log("Output : "+conv_num)
+
+// ------------------Qustion (4)--------------------
