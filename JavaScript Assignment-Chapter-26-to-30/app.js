@@ -38,3 +38,12 @@
 // console.log("Output : "+conv_num)
 
 // ------------------Qustion (4)--------------------
+
+var dice_limit = 100;
+
+var random_dice = Math.random();
+
+var final_dice = (random_dice*dice_limit) + 1;
+console.log(final_dice)
+var floor_dice = Math.floor(final_dice);
+console.log(floor_dice)
