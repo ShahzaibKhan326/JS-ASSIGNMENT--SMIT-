@@ -20,3 +20,17 @@
 // var my_Date =  new Date();
 // var my_day = my_Date.getDay();
 // console.log("Today : "+ days[my_day])
+
+// -------------------Question (3)------------------------------
+
+// var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// var my_Date =  new Date();
+// var my_day = my_Date.getDay();
+
+// if(days[my_day] === "sunday" || days[my_day] === "saturday" )
+// {
+//     console.log("its fun day");
+// }
+// else {
+//     console.log("it working day")
+// }
