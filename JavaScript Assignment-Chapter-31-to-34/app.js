@@ -38,15 +38,17 @@
 
 // -------------------Question (5)------------------------------
 
-var date = new Date();
-var My_Date = date.getDate()
-console.log("Todays Date : "+My_Date);
-if(My_Date <= 15)
-{
-    console.log("First Fiften Days of Month")
-}
-else 
-{
-    console.log("Last Fiften Days of Month")
+// var date = new Date();
+// var My_Date = date.getDate()
+// console.log("Todays Date : "+My_Date);
+// if(My_Date <= 15)
+// {
+//     console.log("First Fiften Days of Month")
+// }
+// else 
+// {
+//     console.log("Last Fiften Days of Month")
+// }
 
-}
+// -------------------Question (6)------------------------------
+
