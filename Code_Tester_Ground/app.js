@@ -25,7 +25,17 @@
 
 // }
 
-var date = new Date().getTime();
-console.log(date)
+var date = new Date();
+var ms= date.getTime();
+console.log(ms)
 
-var mi
+var milisec = (1000*1)
+var seconds = (1000*60)
+console.log("seconds : "+seconds)
+var hour = (seconds*60)
+console.log("Hours : "+hour)
+var day = (hour * 24);
+console.log("days : " + day)
+
+var mili_to_day = (ms/day)
+console.log(Math.floor(mili_to_day))

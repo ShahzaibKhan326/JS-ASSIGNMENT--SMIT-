@@ -52,3 +52,14 @@
 
 // -------------------Question (6)------------------------------
 
+// var current_date = new Date();
+// console.log("Current Date : " + current_date)
+
+// var  Elapsed_ms = current_date.getTime();
+// console.log("Elapsed milliseconds since January 1, 1970 : "+Elapsed_ms);
+// var Elapsed_minutes = Math.floor(Elapsed_ms/60000)
+// console.log("Elapsed minutes since January 1, 1970 : " + Elapsed_minutes);
+
+// -------------------Question (7)------------------------------
+
+
