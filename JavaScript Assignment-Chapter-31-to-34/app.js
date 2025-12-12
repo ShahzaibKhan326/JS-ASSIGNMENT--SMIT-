@@ -132,3 +132,33 @@
 // var current_age = Math.floor(current_year-user_birth_year);
 // console.log("Your birth year is : " + user_birth_year)
 // console.log("Your age is : " + current_age)
+
+// -------------------Question (14)------------------------------
+
+// var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+// var units = 410;
+// var unit_charge = 16;
+// var late_charges = 350;
+
+// var date = new Date();
+
+// var total_charges = units*unit_charge;
+// var gross_amount_payable = total_charges+late_charges;
+
+// total_charges = total_charges.toFixed(2);
+// gross_amount_payable = gross_amount_payable.toFixed(2);
+// unit_charge = unit_charge.toFixed(2)
+// late_charges = late_charges.toFixed(2)
+
+
+// console.log("K-Electric Bill :")
+// console.log("Customer Name : ABC Customer")
+// console.log( "Month : " + months[date.getMonth()] )
+// console.log("Number of units : " + units)
+// console.log("Charge per unit : " + unit_charge)
+// console.log("-----------------------------")
+
+
+// console.log("Net Amount Payable(within Due Date) : " + total_charges)
+// console.log("Late payment surcharges : " + late_charges)
+// console.log("Gross Amount Payable(after Due Date) : "+ gross_amount_payable)
