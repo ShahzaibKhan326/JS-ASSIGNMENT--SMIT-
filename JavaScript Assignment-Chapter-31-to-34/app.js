@@ -115,3 +115,11 @@
 // var hours = date.getHours();
 // date.setHours(hours-1)
 // console.log("1 hour ago, it was : "+date);
+
+// -------------------Question (12)------------------------------
+
+// var date = new Date();
+// console.log("Current Date : "+ date)
+// var year = date.getFullYear();
+// date.setFullYear(year-100)
+// console.log("100 years back, it was : "+ date);
