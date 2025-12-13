@@ -72,3 +72,20 @@
 // }
 
 // square(5);
+
+// -------------Question (6)---------------------------------
+
+function fact_num(num1)
+{
+   if(num1 <= 0 ||  num1 === 1)
+   {
+    return console.log("factorial is not defined for negative number")
+   }
+   var result = 1 ;
+   for(let i =2 ; i <= num1; i++)
+   {
+    result *= i;
+   }
+   return result;
+}
+console.log(fact_num(5));
