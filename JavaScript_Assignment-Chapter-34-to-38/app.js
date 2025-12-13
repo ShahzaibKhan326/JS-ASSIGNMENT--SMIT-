@@ -54,7 +54,7 @@
 //   }
 //   else 
 //   {
-//     console.log("Please enter Valid sign")
+//     console.log("Please Enter Valid operater sign ")
 //   }
 // }
 
@@ -63,3 +63,12 @@
 // var user_operater = prompt("Enter your desire operater \n like :(+,-,%,/,*).")
 
 // calulater(user_num1,user_num2,user_operater);
+
+// -------------Question (5)---------------------------------
+
+// function square(num1)
+// {
+//  console.log("Square of " + num1 + " is: " + (num1*num1))
+// }
+
+// square(5);
