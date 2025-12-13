@@ -75,17 +75,33 @@
 
 // -------------Question (6)---------------------------------
 
-function fact_num(num1)
-{
-   if(num1 <= 0 ||  num1 === 1)
-   {
-    return console.log("factorial is not defined for negative number")
-   }
-   var result = 1 ;
-   for(let i =2 ; i <= num1; i++)
-   {
-    result *= i;
-   }
-   return result;
-}
-console.log(fact_num(5));
+// function fact_num(num1)
+// {
+//    if(num1 <= 0 ||  num1 === 1)
+//    {
+//     return console.log("factorial is not defined for negative number")
+//    }
+//    var result = 1 ;
+//    for(let i =2 ; i <= num1; i++)
+//    {
+//     result *= i;
+//    }
+//    return result;
+// }
+// console.log(fact_num(5));
+
+// -------------Question (7)---------------------------------
+
+// function countDown(s_num,e_num)
+// {
+//    console.log("Your start at "+ s_num + " and end at " + e_num)
+//    for(var i = s_num ; i<= e_num; i++)
+//    {
+//       console.log(i);
+//    }
+// }
+
+// var starting_num = 1;
+// var ending_num =10;
+// countDown(starting_num,ending_num)
+
