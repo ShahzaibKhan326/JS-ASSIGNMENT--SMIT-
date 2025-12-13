@@ -107,11 +107,27 @@
 
 // -------------Question (8)---------------------------------
 
-function num_power(num,power)
-{
-   var result;
-  result= (num**power)   
-}
+// function num_power(num)
+// {
+//      return num ** (2);
+// }
 
-console.log(num_power(2,2))
+// function calc_hypotneuse(user_base,user_perpendicular)
+// {
+//   var base = num_power(user_base);
+//   var perpendicular = num_power(user_perpendicular)
+
+//   console.log("Base : " + user_base + " with power of 2")
+//   console.log("Perpendicular : " + user_perpendicular + " with power of 2")
+//   console.log("After calulating Squar of both Values:\nBase : " + base + " " + "Perpendicilar : " + perpendicular )
+ 
+//   var sum_of_squares = base + perpendicular;
+//   console.log("Sum of Both Valuse: " + sum_of_squares)
+  
+//   var hypotneuse_length = Math.sqrt(sum_of_squares);
+//   console.log("After taking square of: " + sum_of_squares)
+//   console.log("hypotneuse-length : " + hypotneuse_length)
+// }
+
+// calc_hypotneuse(3,4)
 
