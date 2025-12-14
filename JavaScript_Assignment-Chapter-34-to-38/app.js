@@ -154,3 +154,11 @@
 
 // -------------Question (10)---------------------------------
 
+function check_palindrome(word)
+{
+  var charArray =  word.split('');
+  var reverseArray = charArray.reverse();
+  var joinedWord = reverseArray.join('');
+  console.log(joinedWord)
+}
+check_palindrome("shahzaib");
