@@ -174,3 +174,22 @@
 // check_palindrome("new");
 
 // -------------Question (11)---------------------------------
+
+// function cap(str)
+// {
+//   var words = str.split(" ");
+//   var Result =[]
+//   for(var i=0; i<words.length;i++)
+//   {
+//     var  word = words[i];
+//     var capital = word[0].toUpperCase() + word.slice(1);
+//     Result.push(capital)
+//   }
+//   console.log("Converted : " + Result.join(" "))
+// }
+
+
+// cap("the quick brown fox")
+
+// ----------------------
+
