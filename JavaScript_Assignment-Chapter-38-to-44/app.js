@@ -122,7 +122,11 @@
 //     var vowels = ["a","i","o","u","e"]
 //     var letters = str.toLowerCase().split("");
 //     var result =[];
-
+// 
+//    if(str.length>25)  
+//    {
+//       return "sentence is too long (max 25 character)"
+//    }      
 //     for(var i = 0; i< letters.length ;i++)
 //     {
 //         var isVowel = false;
@@ -142,3 +146,48 @@
 //     console.log(result.join(""));
 // }
 // deleteVowels("shahzaib");
+
+// -----------------Qustion(7)-----------------------------
+
+// function countDoubleVowels(text)
+// {
+//     var count = 0;
+
+//     for(var i=0;i<text.length-1;i++)
+//     {
+//      var pair = text[i]+ text[i+1];
+//      switch (pair.toLowerCase())
+//      {
+//             case "aa":
+//             case "ae":
+//             case "ai":
+//             case "ao":
+//             case "au":
+//             case "ea":
+//             case "ee":
+//             case "ei":
+//             case "eo":
+//             case "eu":
+//             case "ia":
+//             case "ie":
+//             case "ii":
+//             case "io":
+//             case "iu":
+//             case "oa":
+//             case "oe":
+//             case "oi":
+//             case "oo":
+//             case "ou":
+//             case "ua":
+//             case "ue":
+//             case "ui":
+//             case "uo":
+//             case "uu":
+//             count++;
+//             break;
+//      }
+//     }
+//     return count;
+// }
+// var sentence ="Please read this application and give me gravity";
+// console.log("Count of Double Vowels: " +countDoubleVowels(sentence))
