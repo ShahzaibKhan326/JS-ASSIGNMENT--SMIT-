@@ -191,3 +191,47 @@
 // }
 // var sentence ="Please read this application and give me gravity";
 // console.log("Count of Double Vowels: " +countDoubleVowels(sentence))
+
+// -----------------Qustion(8)-----------------------------
+
+// function kilometer_to_meter(kilometer)
+// {
+//    console.log("Kilometer to meter: "+ kilometer+" k")
+//    var meter = 1000;
+//    return meter = (kilometer*meter)+"m"
+// }
+
+// function kilometer_to_feet(kilometer)
+// {
+//    console.log("Kilometer to feet: "+ kilometer+" k")
+//    var feet = 3280.84;
+//    return feet = (kilometer*feet)+" feet";
+// }
+
+// function kilometer_to_inch(kilometer)
+// {
+//    console.log("Kilometer to inch: "+ kilometer+" k")
+//    var inch = 39370.1;
+//    return inch = (kilometer*inch)+" inch";
+// }
+// function kilometer_to_centimeter(kilometer)
+// {
+//    console.log("Kilometer to feet: "+ kilometer+" k")
+//    var centimeter = 100000;
+//    return  (kilometer*centimeter)+" cm";
+// }
+
+// function main(user_kilometer)
+// {
+   
+//    console.log(kilometer_to_centimeter(user_kilometer))
+//    console.log(kilometer_to_inch(user_kilometer))
+//    console.log(kilometer_to_feet(user_kilometer))
+//    console.log(kilometer_to_meter(user_kilometer))
+// }
+
+// var km = parseInt(prompt("Enter kilometer for conversion"));
+// main(km)
+
+
+
