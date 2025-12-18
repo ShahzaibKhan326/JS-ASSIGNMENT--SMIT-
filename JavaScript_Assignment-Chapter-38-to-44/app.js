@@ -233,23 +233,28 @@
 // var km = parseInt(prompt("Enter kilometer for conversion"));
 // main(km)
 
-// -----------------Qustion(9)-----------------------------
+// -----------------Qustion(10)-----------------------------
 
 
-function noteCount(num)
-{
-    num_length = num.toString().length
-
-    if(num_length<=1 && num < 10  )
-    { 
-        return console.log(num + " coins") 
-    }
-    else if(num<=2 && num<=50)
-    {
-
-    }
+// function noteCount(amount)
+// {
+//    var note100 =Math.floor(amount/100);
+//    var remainingAmount = amount % 100;
+  
+//    var note50 =Math.floor(remainingAmount/50);
+//    remainingAmount = remainingAmount % 50;
     
-}
+//    var note20 = Math.floor(remainingAmount/20)
+//    remainingAmount = remainingAmount % 20
 
- noteCount(6)
+//    var note10 = Math.floor(remainingAmount/10);
 
+//    console.log("Amount : " + amount)
+//    console.log("100s : " + note100);
+//    console.log("50s : " + note50);
+//    console.log("20s : " + note20);
+//    console.log("10s : " + note10);
+   
+// }
+
+// noteCount(580)
