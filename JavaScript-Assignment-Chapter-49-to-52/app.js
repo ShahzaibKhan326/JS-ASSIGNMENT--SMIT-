@@ -49,3 +49,20 @@ function expandPara()
 
 // ------------------------Edit and delete Table data----------------------------------
 
+var userName =  document.getElementById("user-name").value;
+var userClass =  document.getElementById("user-class").value;
+var userRollNumber =  document.getElementById("user-roll-number").value;
+
+var studentData = [];
+function validation(s_name,s_class,s_roll_number)
+{
+  var empty = "";
+  if(s_name === empty || s_class === empty || userRollNumber === s_roll_number)
+  {
+    
+  }
+}
+function addData()
+{
+   
+}
