@@ -40,3 +40,16 @@
 //      }
 
 // }
+
+// ------------(Adding rows from input fields)--------------------------------
+
+// function addData()
+// {
+//   let name = document.getElementById("name").value;
+//   let cls = document.getElementById("class").value;
+//   let age = document.getElementById("age").value;
+
+//   const table = document.getElementById("mytable");
+//   const row = table.insertRow();
+//   row.innerHTML = `<td>${name}</td> <td>${cls}</td> <td>${age}</td>`;
+// }
