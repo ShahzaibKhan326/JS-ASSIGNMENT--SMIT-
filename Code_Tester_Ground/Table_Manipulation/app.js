@@ -22,21 +22,21 @@
 
 // ------------(Adding 3 Rows using loop)--------------------------------
 
-function addRow()
-{
-       const table = document.querySelector("#myTable");
+// function addRow()
+// {
+//        const table = document.querySelector("#myTable");
         
   
-     for(let i = 0 ; i < 3 ;i++)
-     {
+//      for(let i = 0 ; i < 3 ;i++)
+//      {
       
-      const row = table.insertRow();
+//       const row = table.insertRow();
     
-      for(let j = 0 ; j < 4 ; j++)
-      {
-        row.insertCell(j).textContent ="";
-      }
+//       for(let j = 0 ; j < 4 ; j++)
+//       {
+//         row.insertCell(j).textContent ="";
+//       }
 
-     }
+//      }
 
-}
+// }
