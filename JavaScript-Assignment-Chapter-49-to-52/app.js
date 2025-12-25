@@ -48,15 +48,51 @@ function expandPara()
 }
 
 // ------------------------Edit and delete Table data----------------------------------
-var s_name ="4";
-var s_class = 23;
-var s_roll_num = 344355;
-var student_array =  [];
-function addData(user_name,user_class,user_roll_num)
+
+var selectedRow = null;
+function addStudent()
 {
-  user_class = s_class;
-  user_name = s_name;
-  user_roll_num = s_roll_num;
-   var tab = document.getElementById("student-table");
-   tab.innerHTML = `<tr> <td>${user_name}</td> <td>${user_class}</td> <td>${user_name}</td></tr>`
+    var StudentName = document.getElementById("name").value;
+    var className = document.getElementById("class").value;
+    var rollNumber = document.getElementById("roll-number").value;
+
+    var table = document.getElementById("student-table");
+    var row = table.insertRow();
+
+    row.insertCell(0).innerHTML =  StudentName;
+    row.insertCell(1).innerHTML =  className;
+    row.insertCell(2).innerHTML =  rollNumber;
+    row.insertCell(3).innerHTML = 
+    "<button onclick='editRow(this)'>Edit</button>" +
+    "<button onclick='deleteRow(this)'>Delete</button>" ;
+
+    document.getElementById("name").value="";
+    document.getElementById("class").value="";
+    document.getElementById("roll-number").value="";
+}
+
+function deleteRow(btn)
+{
+    var row = btn.parentNode.parentNode;
+    row.parentNode.removeChild(row)
+}
+
+function editRow(btn)
+{
+    selectedRow = btn.parentNode.parentNode;
+
+    document.getElementById("editName").value = selectedRow.cells[0].innerHTML;
+    document.getElementById("editClass").value = selectedRow.cells[1].innerHTML;
+    document.getElementById("editRollNumber").value = selectedRow.cells[2].innerHTML;
+    
+    document.getElementById("editForm").style.display ="block";
+}
+
+function updateStudent()
+{
+        selectedRow.cells[0].innerHTML = document.getElementById("editName").value;
+        selectedRow.cells[1].innerHTML = document.getElementById("editClass").value;
+        selectedRow.cells[2].innerHTML = document.getElementById("editRollNumber").value;
+
+        document.getElementById("editForm").style.display = "none";
 }

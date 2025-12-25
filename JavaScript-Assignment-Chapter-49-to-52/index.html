@@ -64,31 +64,35 @@
         </div>
         <div class="row">
             <label for="roll-number">Roll  </label>
-            <input type="text" name="roll-number" id="roll-number" placeholder="445252">
+            <input type="number" name="roll-number" id="roll-number" placeholder="445252">
         </div>
         <div class="row display-box-button ">
           <p id="dp-box" class=""></p>
-          <button class="add-button" class="row-item" onclick="addData()">Add</button>
+          <button class="add-button" class="row-item" onclick="addStudent()">Add</button>
         </div>
     </div>
+
+ <!-- -------------------Table--------------------------------------- -->
     <table id="student-table">
 
-        <!-- <tr>
+        <tr>
             <th>Name</th>
             <th>Class</th>
             <th>Roll</th>
-            <th><button>Add</button></th>
+            <th>Actions</th>
         </tr>
-        <tr>
-           <td>shahzaib</td>
-           <td>12</td>
-           <td>425858</td>
-           <td><button>Delete</button></td>
-        </tr> -->
-     
-    
     </table>
+<!-- --------------------Table End------------------------------------- -->
 
+<div id="editForm" class="editForm">
+    <h3>Edit Student</h3>
+    <div class="edit-row">
+    <input type="text" id="editName" placeholder="Name">
+    <input type="number" id="editClass" placeholder="Class">
+    <input type="number" id="editRollNumber" placeholder="Roll-Number">
+    <button onclick="updateStudent()">Update</button>
+    </div>
+</div>
 
    </section>
 
