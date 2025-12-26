@@ -61,26 +61,21 @@
 //  btn.closest("tr").remove();
 // }
 
-// -------------(Edit a row  #1.2)----------------------------------
+// -------------(Adding and updating rows  #1.2)----------------------------------
 
 let selectedRow = null;
-
 function editRow(btn)
 {
-  selectedRow = btn.closest("tr");
+     selectedRow = btn.closest("tr");
 
-  document.querySelector("#editName").value = selectedRow.cells[0].textContent;
-  document.querySelector("#editClass").value = selectedRow.cells[1].textContent;
-  document.querySelector("#editAge").value = selectedRow.cells[2].textContent;
-
+     document.querySelector("#editName").value = selectedRow.children[0].textContent;
+     document.querySelector("#editClass").value = selectedRow.children[1].textContent;
+     document.querySelector("#editAge").value = selectedRow.children[1].textContent;
 }
 
 function updateData()
 {
-  preventDefault();
-  // selectedRow.cells[0].textContent = document.querySelector("#editname").value;
-  selectedRow.cells[0].textContent = document.getElementById("editName").value;
-  selectedRow.cells[1].textContent = document.getElementById("editClass").value;
-  selectedRow.cells[2].textContent = document.getElementById("editAge").value;
-
+  selectedRow.children[0].textContent = document.querySelector("#editName").value;
+  selectedRow.children[1].textContent = document.querySelector("#editClass").value;
+  selectedRow.children[2].textContent = document.querySelector("#editAge").value;
 }
