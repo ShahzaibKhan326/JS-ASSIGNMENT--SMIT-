@@ -15,9 +15,16 @@
 
 //  -----------------querySelector-(for Selecting Single Element)--------------------
 
-let heading = document.querySelector("#title"); // selecting title  (id)
-let firstPara  = document.querySelector("p");   // selecting first paragraph ("p")
-let para = document.querySelector(".info");     // selecting paragraphs class (".info")
+// selecting title  (id)
+let heading = document.querySelector("#title"); 
+
+// selecting first paragraph ("p")
+let firstPara  = document.querySelector("p");   
+
+// selecting paragraphs class (".info")
+let para = document.querySelector(".info");   
+
+// Change paragraph inner Text
 heading.innerText = "Heading Changed!"
 
 // --------querySelectorAll---(Muiltiple elements)----------------------------
@@ -36,6 +43,10 @@ console.log(paragraphs)
 // ---------Arrow fucntion------------
 
 paragraphs.forEach(p => p.style.color = "blue");
+
+// ---------Target Specific Element-------------------------
+
+paragraphs[0].style.color="red";
 
 </script>
 
