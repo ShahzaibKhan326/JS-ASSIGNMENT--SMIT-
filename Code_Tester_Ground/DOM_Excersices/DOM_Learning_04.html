@@ -13,8 +13,29 @@
 
     <script>
 
-     let p = document.querySelector("#para");
-     p.innerText = "Hello world!";
+//  -------------Difference Between (innerText and innerHTML)--------------------------------
+    //  let p = document.querySelector("#para");
+
+    //  p.innerText = "Hello world!";
+
+    // Can Not use HTML tags in innerText
+    //  p.innerText = "<b>Hello World! </b>"  
+
+    // ----------------------------------
+
+    // Can use HTML tags in innerHTML
+
+    // ------Single Tag---------
+    // p.innerHTML ="<b>Hello World!</b>"
+    // ------muiltiple Tag---------
+    // p.innerHTML = "<i>hello</i> <b>World!</b>"
+
+    // ---------Replace Full Content-------------------------
+
+    // document.body.innerHTML = "<h1>Page Replaced</h1>"
+    /* WARNING: This removes everything (buttons, events, etc.) */
+
+    
 
     </script>
 </body>
