@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Styling Element Using JavaScript</title>
+    <style>
+        .colorBox 
+        {
+            margin: 10px 0px;
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+    </style>
 </head>
 <body>
 
@@ -13,6 +23,10 @@
 
     <button id="btn">Change Style</button>
 
+    <div class="colorBox">
+
+    </div>
+    <button id="color_btn">Random Color</button>
     
     <script>
 
@@ -41,6 +55,24 @@
 //     heading.style.color = "green";
 //     heading.style.fontSize = "40px"
 // }
+
+// ------------------Practice-->
+
+const display = document.querySelector(".colorBox")
+const btn =  document.querySelector("#color_btn")
+let color_array = ["red","green","yellow","blue","orange","purple","pink"]
+btn.onclick = function changeColor()
+{
+   max = 6;
+   min = 0;
+
+//    let randomIndex = Math.floor(Math.random() * max ) + min;
+   let randomIndex = Math.floor(Math.random() * color_array.length) ;
+   console.log(randomIndex);
+   
+   display.style.backgroundColor = color_array[randomIndex];
+
+}
 
 
 
